@@ -1,0 +1,100 @@
+startDateTime, endDateTime, location, format, units, resultsLocation
+2021-01-01T12, 2021-01-01T18, "POINT (43.060040478510814 -89.47707674068529)", csv, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-02T00, 2021-01-02T01, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, si, cos://us-south/your-bucket/hod-archive-results
+2021-01-03T00, 2021-01-04T00, "MULTIPOINT ((20.054112 -60.810499), (42.976294 -80.467756), (58.054 -120.960987))", jsonl, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-04T00, 2021-01-04T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-05T00, 2021-01-05T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-06T00, 2021-01-06T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-07T00, 2021-01-07T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-08T00, 2021-01-08T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-09T00, 2021-01-09T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-10T00, 2021-01-10T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-11T00, 2021-01-11T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2021-01-12T00, 2021-01-12T01, "POINT (43.060040478510814 -89.47707674068529)", parquet, metric, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-29T00, 2021-02-17T00, "BBOX ((56.137634 -120.991541), (56.59162 -120.172217))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-28T00, "BBOX ((44.569544 -68.932273), (45.109799 -68.17055))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2020-03-09T00, 2020-04-01T00, "BBOX ((70.03125 -149.383269), (70.48399 -148.043989))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-02-27T00, 2019-02-28T00, "BBOX ((47.498673 -117.452676), (48.008271 -116.689275))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-03-22T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2018-02-22T00, 2018-02-26T00, "BBOX ((40.953983 -92.140529), (41.534368 -91.368945))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2019-01-08T00, 2019-03-01T00, "BBOX ((42.000209 -83.719059), (42.585735 -82.927928))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-16T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-17T00, 2021-03-11T00, "BBOX ((53.716189 -109.035372), (54.194723 -108.222424))", parquet, english, cos://us-south/your-bucket/hod-archive-results
+2021-01-01T00, 2021-01-18T00, "BBOX ((41.475549 -71.765892), (42.0659 -70.974779))", parquet, english, cos://us-south/your-bucket/hod-archive-results

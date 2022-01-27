@@ -1,0 +1,11 @@
+# Editors
+.vscode/
+.idea/
+
+# Mac/OSX
+.DS_Store
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
