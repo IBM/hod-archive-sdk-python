@@ -39,7 +39,7 @@ Jobs run: 4, Errors: 0
 
 ## Questions and support
 
-For support, please contact twcapi@us.ibm.com
+For support, please contact twcapi@us.ibm.com.
 
 ## Open source @ IBM
 
