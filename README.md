@@ -20,6 +20,7 @@ The CSV must contain a header line that includes a ``startDateTime``, ``endDateT
 CSV values should match the formats expected by the HoD Archive API. Because most location expressions contain commas, it's a good idea to surround that value in quotes. For more details, see the HoD Archive documentation and [sample-jobs.csv](./sampledata/sample-jobs.csv) in the `sampledata` directory.
 
 ## Example usage
+
 ```shell
 $ ./hodarchive/hodarchive.py --jobs ./sampledata/sample-jobs.csv --api-key 1234
 Job (cbb54705-82fd-4919-baed-6ff02b175ade) submitted from line 1.
@@ -37,10 +38,13 @@ Jobs run: 4, Errors: 0
 ```
 
 ## Questions and support
-TODO
+
+For support, please contact twcapi@us.ibm.com
 
 ## Open source @ IBM
+
 Find more open source projects on the [IBM Github](https://github.com/IBM) page.
 
 ## License
+
 This SDK is distributed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0). To read the full text of the license, see [LICENSE](./LICENSE).
