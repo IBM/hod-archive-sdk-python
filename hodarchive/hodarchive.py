@@ -19,7 +19,7 @@ The CSV must contain a header line that includes a ``startDateTime``, ``endDateT
 ``units``, and ``resultsLocation``. Header names are case-insensitive and may contain underscores, hyphens, and spaces.
 Column order does not matter.
 
-CSV values should match the formats expected by the HoD Archive API. Because most location expressions contains commas,
+CSV values should match the formats expected by the HoD Archive API. Because most location expressions contain commas,
 it's a good idea to surround that value in quotes. For more details, see the HoD Archive documentation at
 https://ibm.co/2YEa7Q1 and `sample-jobs.csv` in the `sampledata` directory.
 
