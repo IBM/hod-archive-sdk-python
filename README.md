@@ -5,21 +5,26 @@ This is a small Python package with a single module / script for submitting Jobs
 
 * [History on Demand (HoD) - Archive](https://docs.google.com/document/d/1S21137fFwX9o7ZqT2kjqwjgikmPUNOpmkEO6ex7ts_U)
 
+## Dependencies
+
+* [requests](https://pypi.org/project/requests/)
+
 ## Quick start
 
 You'll need:
 
+* Python 3.7+
 * [An IBM Cloud account and Cloud Object Storage (COS) instance](https://docs.google.com/document/d/1S21137fFwX9o7ZqT2kjqwjgikmPUNOpmkEO6ex7ts_U/edit#heading=h.t3a08xhznh4c)
 * A valid API key registered with HoD Archive
 * A jobs CSV file
 
-## Jobs CSV
+### Jobs CSV
 
 The CSV must contain a header line that includes a ``startDateTime``, ``endDateTime``, ``location``, ``format``, ``units``, and ``resultsLocation``. Header names are case-insensitive and may contain underscores, hyphens, and spaces. Column order does not matter.
 
 CSV values should match the formats expected by the HoD Archive API. Because most location expressions contain commas, it's a good idea to surround that value in quotes. For more details, see the HoD Archive documentation and [sample-jobs.csv](./sampledata/sample-jobs.csv) in the `sampledata` directory.
 
-## Example usage
+### Example usage
 
 ```shell
 $ ./hodarchive/hodarchive.py --jobs ./sampledata/sample-jobs.csv --api-key 1234
