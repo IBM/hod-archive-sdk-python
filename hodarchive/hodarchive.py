@@ -30,13 +30,14 @@ Dependencies:
     requests - https://docs.python-requests.org
 """
 
-import csv
-from collections import namedtuple, deque
-import json
-from typing import Any, Union, Generator
-import requests
 import argparse
+import csv
+import json
 import time
+from collections import namedtuple, deque
+from typing import Any, Union, Generator, Dict, Deque
+
+import requests
 
 _HOD_ARCHIVE_URL = 'https://api.weather.com/v3/wx/hod/r1/archive'
 _HOD_ACTIVITY_URL = 'https://api.weather.com/v3/wx/hod/r1/activity'
@@ -51,7 +52,7 @@ class Job:
     def __init__(self, line_number: int, request: ArchiveRequest):
         self.line_number = line_number
         self.request = request
-        self.info: dict[str, Any] = {}
+        self.info: Dict[str, Any] = {}
 
 
 def _main():
@@ -116,7 +117,7 @@ def yield_jobs(jobs_file_path: str) -> Generator[Job, None, None]:
             yield Job(row_number, request)
 
 
-def post_with_retry(api_key: str, req: ArchiveRequest) -> dict[str, Any]:
+def post_with_retry(api_key: str, req: ArchiveRequest) -> Dict[str, Any]:
     """ Submit an ``ArchiveRequest`` to HoD Archive while handling the 429 backpressure
     Args:
         api_key: The api key to use
@@ -139,7 +140,7 @@ def post_with_retry(api_key: str, req: ArchiveRequest) -> dict[str, Any]:
                 raise
 
 
-def post(api_key: str, req: ArchiveRequest) -> dict[str, Any]:
+def post(api_key: str, req: ArchiveRequest) -> Dict[str, Any]:
     """ Submit an ``ArchiveRequest`` to HoD Archive.
     Args:
         api_key: The api key to use
@@ -170,30 +171,30 @@ def post(api_key: str, req: ArchiveRequest) -> dict[str, Any]:
     return body['job']
 
 
-def clean_completed(api_key: str, jobs: deque[Job]):
+def clean_completed(api_key: str, jobs: Deque[Job]):
     """ Update each job's status and clear completed jobs
     Args:
         api_key: The api key to use
         jobs: A deque of active jobs
     """
 
-    completeCount = 0
-    errorCount = 0
+    complete_count = 0
+    error_count = 0
     for i in range(len(jobs)):
         job = jobs.pop()  # pop right
         job.info = get_status(api_key, job.info['jobId'])
         if 'complete' == job.info['jobStatus']:
-            completeCount += 1
+            complete_count += 1
             notify_job_complete(job)
         elif 'error' == job.info['jobStatus']:
-            errorCount += 1
+            error_count += 1
             notify_job_errored(job)
         else:
             jobs.appendleft(job)
-    return completeCount, errorCount
+    return complete_count, error_count
 
 
-def get_status(api_key: str, job_id: str) -> dict[str, Any]:
+def get_status(api_key: str, job_id: str) -> Dict[str, Any]:
     """ Get the status of a submitted job.
     Args:
         api_key: The api key to use
@@ -237,7 +238,7 @@ def handle_error(response: requests.Response):
     print(f'Error ({response.status_code} - {response.reason}): {body}')
 
 
-def read_response_body(response: requests.Response) -> Union[dict[str, Any], str]:
+def read_response_body(response: requests.Response) -> Union[Dict[str, Any], str]:
     """ Read response body as a ``dict`` if possible, else as a ``str`` """
     body = response.content.decode('utf-8')
     try:
